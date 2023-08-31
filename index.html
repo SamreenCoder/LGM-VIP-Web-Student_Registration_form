@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../form/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: blueviolet;">
+  <form id="form">
+
+    <section class="h-100 h-custom gradient-custom-2">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12">
+            <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+              <div class="card-body p-0">
+                <div class="row g-0">
+                  <div class="col-lg-6">
+                    <div class="p-5">
+                      <h3 class="fw-normal mb-5" style="color: #4835d4;">Student Registration Form</h3>
+
+
+                      <div class="row">
+                        <div class="d-flex mb-2 pb-2">
+
+                          <div class="form-outline">
+                            <input type="text" id="frstname" class="form-control form-control-lg"
+                              placeholder="First name" />
+                          </div>
+
+                          <div class="form-outline">
+                            <input type="text" id="lstname" class="form-control form-control-lg"
+                              placeholder="Last name" />
+                          </div>
+
+                        </div>
+
+                        <div class="mb-2 pb-2">
+                          <div class="form-outline">
+                            <input type="date" id="dob" class="form-control form-control-lg" id="name" />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-2 pb-2">
+                        <div class="form-outline">
+                          <input type="number" id="num" class="form-control form-control-lg" placeholder="Contact"
+                            required />
+                        </div>
+                      </div>
+                      <div class="mb-2 pb-2">
+                        <div class="form-outline">
+                          <input type="email" id="email" class="form-control form-control-lg" placeholder="E-mail"
+                            required />
+                        </div>
+                      </div>
+
+                      <div class="mb-4">
+                        <label>Gender</label>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                          <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                          <label class="form-check-label" for="female">Female</label>
+                        </div>
+                      </div>
+
+                      <div class="mb-2 pb-2">
+                        <div class="form-outline">
+                          <input type="text" id="city" class="form-control form-control-lg" placeholder="City" />
+                        </div>
+                      </div>
+                      <div class="mb-2 pb-2">
+                        <div class="form-outline">
+                          <input type="text" id="country" class="form-control form-control-lg" placeholder="Country" />
+                        </div>
+                      </div>
+
+                      <div class="mb-4 pb-2">
+                        <select class="select" id="crs">
+                          <option value="1"> Course</option>
+                          <option value="2">Microsoft office</option>
+                          <option value="3">Graphic Designing</option>
+                          <option value="4">Digital Marketing</option>
+                          <option value="4">Video Editing</option>
+                          <option value="4">Web Development</option>
+                          <option value="4">DataBase</option>
+                          <option value="4">CIT</option>
+                          <option value="4">Programming Language</option>
+
+                        </select>
+                      </div>
+                      <div class="container">
+                        <div class="row">
+                          <div class="col-md-6 offset-md-3">
+                            <div class="d-flex justify-content-center mb-4 pb-2 ml-3">
+                              <input type="submit" class="btn btn-primary" value="Submit">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+
+                      </div>
+
+
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="p-5">
+                      <h3 class="fw-normal">Details</h3>
+                      <div class="col-lg-12" id="display">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </form>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
